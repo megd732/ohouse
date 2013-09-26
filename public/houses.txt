@@ -1,0 +1,1397 @@
+Street: North Cedar
+Number: 15
+Residents: 2
+Downstairs: Dining room, kitchen, living room
+Upstairs: Bathroom, bedroom (2), lounge
+Full: 2
+Twin: 0
+Notes: House is connected to 200 W. College
+
+--------
+
+Street: North Cedar
+Number: 29
+Residents: 2
+Downstairs: Bedroom, kitchen, living room
+Upstairs: Bedroom, bathroom
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: North Cedar
+Number: 25
+Residents: 4
+Downstairs: Bathroom, kitchen, living room, dining room
+Upstairs: Bedroom (4)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Cedar
+Number: 39
+Residents: 4
+Downstairs: Kitchen, dining room, living room
+Upstairs: Bedroom (4), bathroom
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Cedar
+Number: 45
+Residents: 4
+Downstairs: Bathroom, bedroom, kitchen, living room
+Upstairs: Bedroom (3), bathroom
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Cedar
+Number: 51
+Residents: 4
+Downstairs: Bedroom (2), bathroom, kitchen, dining room, living room, sun room
+Upstairs: Bedroom (2)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Cedar
+Number: 69
+Residents: 4
+Downstairs: Bedroom (1), kitchen, bathroom, living room
+Upstairs: Bedroom (3), bathroom
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: East College
+Number: 64
+Apartment: 1
+Residents: 1
+Description: Kitchen, living room, bedroom, bathroom
+Full: 0
+Twin: 1
+Notes:
+
+-------
+
+Street: East College
+Number: 64
+Apartment: 2
+Residents: 3
+Description: Bedroom (3), kitchen, living room, bathroom
+Full: 0
+Twin: 3
+Notes:
+
+-------
+
+Street: East College
+Number: 108
+Apartment: 1
+Residents: 3
+Downstairs: Living room, dining room, kitchen, porch
+Upstairs: Bedroom (3), bathroom
+Full: 1
+Twin: 2
+Notes:
+
+-------
+
+Street: East College
+Number: 108
+Apartment: 2
+Residents: 3
+Downstairs: Living room, dining room, kitchen
+Upstairs: Bedroom (3), bathroom
+Full: 0
+Twin: 3
+Notes:
+
+-------
+
+Street: East College
+Number: 108
+Apartment: 3
+Residents: 2
+Downstairs: Living room, kitchen
+Upstairs: Bedroom (2), bathroom
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street: East College
+Number: 120
+Residents: 4
+Downstairs: Living room, kitchen, bathroom, bedroom
+Upstairs: Bedroom (3), bathroom
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: West College
+Number: 129
+Residents: 4
+Downstairs: Living Room, Dining Room, Kitchen, Bathroom
+Upstairs: Bedroom (4), bathroom, sun room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: West College
+Number: 135
+Apartment: 1
+Residents: 2
+Description: Bedroom (2), bathroom, kitchen, living room
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: West College
+Number: 135
+Apartment: 2
+Residents: 1
+Description: Bedroom, bathroom, kitchen, living room
+Full: 1
+Twin: 0
+Notes:
+
+-------
+
+Street:	West College
+Number:	135
+Apartment: 3
+Residents: 1
+Description: Bedroom, bathroom,	kitchen, living	room
+Full: 1
+Twin: 0
+Notes:
+
+-------
+
+Street:	West College
+Number:	135
+Apartment: 4
+Residents: 1
+Description: Bedroom, bathroom,	kitchen
+Full: 1
+Twin: 0
+Notes:
+
+-------
+
+Street:	West College
+Number:	135
+Apartment: 5
+Residents: 1
+Description: Bedroom, bathroom,	kitchen, living	room
+Full: 1
+Twin: 0
+Notes:
+
+-------
+
+Street: West College
+Number: 143
+Apartment: 1
+Residents: 2
+Description: Bedroom (2), bathroom, kitchen, living room, sun room
+Full: 1
+Twin: 1
+Notes:
+
+-------
+
+Street: West College
+Number: 143
+Apartment: 2E
+Residents: 1
+Description: Bedroom, bathroom, kitchen
+Full: 0
+Twin: 1
+Notes:
+
+-------
+
+Street: West College
+Number: 143
+Apartment: 2W
+Residents: 1
+Description: Bedroom, bathroom, kitchen
+Full: 0
+Twin: 1
+Notes:
+
+-------
+
+Street: West College
+Number: 149
+Residents: 4
+Downstairs: Kitchen, dining room, living room, bedroom, bathroom
+Upstairs: Bedroom (3), bathroom
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: West College
+Number: 186
+Apartment: 1
+Residents: 4
+Downstairs: Bathroom, dining room, kitchen, living room, pantry, bedroom
+Upstairs: Bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: West College
+Number: 186
+Apartment: 2
+Residents: 1
+Upstairs: Bedroom, living room, bathroom, kitchen
+Full: 0
+Twin: 1
+Notes:
+
+-------
+
+Street: West College
+Number: 190
+Apartment: 1
+Residents: 1
+Description: Bedroom, dining room, kitchen, living room, bathroom
+Full: 0
+Twin: 1
+Notes:
+
+-------
+
+Street: West College
+Number: 190
+Apartment: 2
+Residents: 2
+Description: Bedroom (2), kitchen, living room, bathroom
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street: West College
+Number: 200
+Apartment: 1
+Residents: 2
+Description: Bathroom, Bedroom (2), dining room, kitchen, living room, porch
+Full: 2
+Twin: 0
+Notes: House is connected to 15 N. Cedar
+
+-------
+
+Street: West College
+Number: 200
+Apartment: 2
+Residents: 2
+Description: Bathroom, bedroom (2), kitchen, living room
+Full: 2
+Twin: 0
+Notes: House is connected to 15 N. Cedar
+
+-------
+
+Street: Elm
+Number: 137
+Apartment: 1A
+Residents: 2
+Description: Bedroom (2), bathroom, kitchen, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 1B
+Residents: 2
+Description: Bedroom, bathroom, kitchen, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 1C
+Residents: 2
+Description: Bedroom, bathroom, kitchen, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 2A
+Residents: 3
+Description: Bedroom (2), bathroom, kitchen, living room
+Full: 0
+Twin: 3
+Notes:
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 2B
+Residents: 2
+Description: Bedroom, bathroom, kitchen, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 2C
+Residents: 2
+Description: Bedroom (2), bathroom, kitchen, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 3A
+Residents: 1
+Description: Bedroom, bathroom, kitchen, living room
+Full: 0
+Twin: 1
+Notes: Designated VA space.
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 3B
+Residents: 1
+Description: Bedroom/living room, bathroom, kitchen
+Full: 0
+Twin: 1
+Notes: Studio apartment.
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 3C
+Residents: 2
+Description: Bedroom, bathroom, kitchen, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street:	Elm
+Number:	137
+Apartment: 3D
+Residents: 1
+Description: Bedroom/living room, bathroom, kitchen
+Full: 0
+Twin: 1
+Notes: Studio apartment.
+
+-------
+
+Street:	Elm
+Number:	140
+Apartment: 1
+Residents: 4
+Downstairs: Bedroom, bathroom (2), kitchen, living room
+Upstairs: Bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street:	Elm
+Number:	140
+Apartment: 2
+Residents: 1
+Description: Bedroom, kitchen, living room
+Full: 1
+Twin: 0
+Notes:
+
+-------
+
+Street:	Elm
+Number:	140
+Apartment: 3
+Residents: 2
+Description: Bedroom, kitchen, living room
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street:	Elm
+Number:	140
+Apartment: 4
+Residents: 1
+Description: Bedroom, kitchen, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street:	Elm
+Number:	148
+Apartment: A
+Residents: 3
+Description: Bedroom (3), bathroom, kitchen, living room, porch
+Full: 2
+Twin: 1
+Notes:
+
+-------
+
+Street:	Elm
+Number:	148
+Apartment: B
+Residents: 3
+Description: Bedroom (3), bathroom, kitchen, living room, porch
+Full: 3
+Twin: 0
+Notes:
+
+-------
+
+Street:	Elm
+Number:	148
+Apartment: C
+Residents: 4
+Description: Bedroom (4), bathroom (2), kitchen, living room
+Full: 0
+Twin: 4
+Notes:
+
+-------
+
+Street:	Elm
+Number:	148
+Apartment: D
+Residents: 3
+Description: Bedroom (4), bathroom, kitchen, living room
+Full: 0
+Twin: 4
+Notes:
+
+-------
+
+Street: East Lorain
+Number: 20
+Residents: 4
+Downstairs: Bedroom, kitchen, living room (2)
+Upstairs: Bedroom (3), bathroom
+Full: 4
+Twin: 0
+Notes: Must fill out application to live in SEED house.
+
+-------
+
+Street: East Lorain
+Number: 22
+Residents: 4
+Downstairs: Bedroom, kitchen, living room, study
+Upstairs: Bedroom (3), bathroom
+Full: 4
+Twin: 0
+Notes: Must fill out application to live in SEED house.
+
+------
+
+Street: East Lorain
+Number: 61
+Residents: 4
+Downstairs: Kitchen, living room, dining room, bedroom, porch
+Upstairs: Bedroom (3), bathroom, laundry room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: West Lorain
+Number: 152
+Apartment: 1
+Residents: 2
+Description: Bedroom (2), bathroom, kitchen, living room
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: West Lorain
+Number: 152
+Apartment: 2
+Residents: 2
+Description: Bedroom (2), bathroom, kitchen, living room
+Full: 2
+Twin: 0
+Notes:
+
+------
+
+Street: West Lorain
+Number: 158
+Residents: 4
+Downstairs: Dining room, foyer, kitchen, living room, porch
+Upstairs: Bathroom, bedroom (4), study
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Main
+Number: 140
+Apartment: 1A
+Residents: 2
+Description: Bedroom (2), kitchen, bathroom, study, dining room, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street: North Main
+Number: 140
+Apartment: 2B
+Residents: 1
+Description: Bedroom, kitchen, bathroom, living room
+Full: 0
+Twin: 1
+Notes: Designated VA space.
+
+-------
+
+Street: North Main
+Number: 140
+Apartment: 2C
+Residents: 1
+Description: Bedroom, bathroom, living room, kitchen
+Full: 0
+Twin: 1
+Notes:
+
+-------
+
+Street: North Main
+Number: 148
+Residents: 4
+Downstairs: Kitchen, living room, bedroom, bathroom
+Upstairs: bathroom, bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Main
+Number: 168
+Apartment: 1
+Residents: 2
+Description: Bedroom (2), kitchen, living room, bathroom, screened porch
+Full: 2
+Twin: 0
+Notes:
+
+------
+
+Street: North Main
+Number: 168
+Apartment: 2
+Residents: 2
+Description: bedroom (2), kitchen, living room, sun room, bathroom
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 12
+Residents: 1
+Description: Bedroom, kitchen, bathroom
+Full: 1
+Twin: 0
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 16
+Residents: 2
+Description: Bedroom (2), kitchen, bathroom, living room
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 40
+Residents: 4
+Downstairs: Dining room, kitchen, bathroom, living room, porch, study
+Upstairs: Bathroom, bedroom (4), study
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 41
+Residents: 4
+Downstairs: Kitchen, living room, bedroom (2), dining room, bathroom, laundry room
+Upstairs: bathroom, bedroom (2), kitchen, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 62
+Residents: 4
+Downstairs: Bathroom, bedroom, foyer, kitchen, living room, study
+Upstairs: bathroom, bedroom (3), kitchen
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 66
+Residents: 4
+Downstairs: Bathroom, kitchen, living room, study, porch
+Upstairs: bathroom, bedroom (4)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 70
+Residents: 4
+Downstairs: living room, kitchen, bathroom, bedroom, storage room
+Upstairs: Bedroom (3), bathroom
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Pleasant
+Number: 76
+Residents: 3
+Downstairs: Kitchen, living room, dining room
+Upstairs: bathroom, bedroom (3)
+Full: 3
+Twin: 0
+Notes:
+
+-------
+
+Street: North Professor
+Number: 195
+Residents: 4
+Downstairs: bedroom, screened porch
+Upstairs: bathroom, bedroom (3)
+Full: 4
+Twin: 0
+Notes: Data for downstairs not available.
+
+-------
+
+Street: North Professor
+Number: 201
+Residents: 4
+Downstairs: bathroom, bedroom (2), kitchen, living room
+Upstairs: bathroom, bedroom (2), study
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: North Professor
+Number: 270
+Residents: 4
+Downstairs: porch, bedroom, kitchen, living room
+Upstairs: bathroom, bedroom (3)
+Full: 0
+Twin: 4
+Notes:
+
+-------
+
+Street: North Professor
+Number: 284
+Residents: 3
+Downstairs: bedroom (3), bathroom (2), kitchen, living room, dining room, porch
+Full: 3
+Twin: 0
+Notes:
+
+-------
+
+Street: South Professor
+Number: 78
+Residents: 4
+Downstairs: Living room, dining room, kitchen, bathroom
+Upstairs: bedroom (4), bathroom
+Full: 4
+Twin: 0
+Notes: Must fill out application to live in the ELC.
+
+-------
+
+Street: South Professor
+Number: 148
+Residents: 6
+Downstairs: bedroom (3), bathroom, kitchen, living room, dining room, porch, study
+Upstairs: bedroom (3), bathroom, study
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Elmwood
+Number: 37
+Residents: 2
+Description: Living room, bedroom, bathroom, kitchen
+Full: 0
+Twin: 2
+Notes:
+
+-------
+
+Street: Elmwood
+Number: 68
+Residents: 3
+Downstairs: living room, dining room, kitchen, screened porch
+Upstairs: bedroom (4), bathroom, sun room, storage room
+Full: 0
+Twin: 4
+Notes:
+
+------
+
+Street: Elmwood
+Number: 75
+Apartment: 1
+Residents: 2
+Description: bedroom (2), kitchen, living room, dining room, bathroom, porch
+Full: 2
+Twin: 0
+Notes:
+
+------
+
+Street: Elmwood
+Number: 75
+Apartment: 2
+Residents: 3
+Description: bedroom (3), kitchen, living room, bathroom, sun room
+Full: 0
+Twin: 3
+Notes:
+
+------
+
+Street: Elmwood
+Number: 83
+Residents: 3
+Downstairs: living room, dining room, kitchen, porch
+Upstairs: Bedroom (3), balcony, sun room, bathroom
+Full: 0
+Twin: 3
+Notes:
+
+------
+
+Street: Elmwood
+Number: 84
+Residents: 4
+Downstairs: living room, dining room, kitchen, study (2), bathroom
+Upstairs: Bedroom (4), bathroom, sun room
+Full: 4
+Twin: 0
+Notes:
+
+------
+
+Street: Willard
+Number: 61
+Residents: 3
+Downstairs: Kitchen, dining room, living room, bathroom
+Upstairs: bedroom (3), bathroom
+Full: 0
+Twin: 3
+Notes:
+
+-------
+
+Street: Woodland
+Number: 108
+Residents: 4
+Downstairs: Bathroom, kitchen, living room, dining room, study, porch
+Upstairs: Bedroom (4), bathroom
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 116
+Residents: 4
+Downstairs: dining room, kitchen, living room, screened porch
+Upstairs: bathroom, bedroom (4)
+Full: 2
+Twin: 2
+Notes:
+
+-------
+
+Street: Woodland
+Number: 124
+Residents: 4
+Downstairs: kitchen, dining room, living room, study, bathroom, bedroom
+Upstairs: bathroom, bedroom (3), study
+Full: 3
+Twin: 1
+Notes:
+
+-------
+
+Street: Woodland
+Number: 136
+Residents: 4
+Downstairs: bathroom, dining room, kitchen, living room
+Upstairs: bathroom, bedroom (4)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 142
+Apartment: 1
+Residents: 2
+Description: bedroom (2), bathroom, kitchen, dining room, living room
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 142
+Apartment: 2
+Description: bedroom (2), bathroom, kitchen, dining room
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 148
+Residents: 4
+Downstairs: Bedroom, Dining Room, Kitchen, Living Room, Porch
+Upstairs: bathroom, bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 152
+Residents: 4
+Downstairs: Bathroom, Bedroom, Living Room, Kitchen, Porch
+Upstairs: bathroom, bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 160
+Apartment: 1
+Residents: 2
+Description: bedroom(2), living room, bathroom, kitchen
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 160
+Apartment: 2
+Residents: 1
+Description: Bathroom, bedroom, living room, kitchen
+Full: 1
+Twin: 0
+Notes: Designated VA space.
+
+-------
+
+Street: Woodland
+Number: 166
+Residents: 4
+Downstairs: bathroom, bedroom, kitchen, living room, parlor
+Upstairs: bathroom, bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 170
+Residents: 4
+Downstairs: bathroom, bedroom, dining room, living room, kitchen, porch
+Upstairs: bathroom, bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 184
+Apartment: 1
+Residents: 3
+Description: kitchen, bedroom (3), bathroom, living room, screened porch
+Full: 2
+Twin: 1
+Notes:
+
+-------
+
+Street: Woodland
+Number: 184
+Apartment: 2
+Residents: 2
+Description: Bedroom (2), kitchen, living room, dining room, bathroom
+Full: 2
+Twin: 0
+Notes:
+
+-------
+
+Street: Woodland
+Number: 190
+Residents: 4
+Downstairs: bathroom, bedroom, kitchen, living room, porch (2)
+Upstairs: bathroom, bedroom (3)
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 96
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 96
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room, balcony
+Full: 4
+Twin: 0
+Notes:
+
+
+-------
+
+Street: Union
+Number: 96
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room, balcony
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 102
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 102
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 102
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 110
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes: Designated VA space.
+
+-------
+
+Street: Union
+Number: 110
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 110
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+
+-------
+
+Street: Union
+Number: 118
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 118
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 118
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+
+-------
+
+Street: Union
+Number: 126
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 126
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Union
+Number: 126
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Goldsmith
+Number: 268
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 268
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 268
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Goldsmith
+Number: 270
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 270
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 270
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 272
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 272
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 272
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 276
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Goldsmith
+Number: 276
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 276
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Goldsmith
+Number: 284
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Goldsmith
+Number: 284
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 284
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+--------
+
+Street: Goldsmith
+Number: 290
+Apartment: A
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+
+-------
+
+Street: Goldsmith
+Number: 290
+Apartment: B
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:
+-------
+
+Street: Goldsmith
+Number: 290
+Apartment: C
+Residents: 4
+Description: bedroom (4), bathroom, kitchen, dining room, living room
+Full: 4
+Twin: 0
+Notes:

@@ -1,9 +1,7 @@
 Ohouse::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/about"
-
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
+  root :to => 'static_pages#home'
+  match '/home', :to => 'static_pages#home', :via => 'get'
+  match '/about', :to => 'static_pages#about', :via => 'get'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
