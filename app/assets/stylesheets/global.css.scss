@@ -4,12 +4,6 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #fff5e0 !important;
-}
-
-.form-control, #srch-btn {
-  height: 30px !important;
-  border-color: #ffb412;
 }
 
 .navbar-brand {
@@ -25,25 +19,4 @@ body {
     .tag {
       text-align: center;
     }
-}
-
-.navbar-default {
-  background-color: #ffd67f !important;
-  border-color: #ffb412 !important;
-  box-shadow: 1px 1px 1px rgba(255,255,255, 0.4);
-  a, li {
-    color: #333333 !important;
-    :hover {
-      color: #ffb412 !important;
-    }
-  }
-  .navbar-toggle {
-    border-color: #ffb412 !important;
-    :hover {
-      background-color: #ff6e4 !important;
-    }
-    .icon-bar {
-      background-color: #ffb412 !important;
-    }
-  }
 }

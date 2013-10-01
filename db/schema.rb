@@ -11,20 +11,35 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130914212223) do
+ActiveRecord::Schema.define(:version => 20131001194723) do
 
-  create_table "residences", :force => true do |t|
-    t.string   "street_name"
+  create_table "houses", :force => true do |t|
+    t.string   "street"
     t.integer  "number"
-    t.string   "apt_number"
-    t.integer  "number_bedrooms"
-    t.string   "description"
-    t.boolean  "laundry"
-    t.string   "notes"
-    t.integer  "full_bed"
-    t.integer  "twin_bed"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.integer  "residents"
+    t.text     "description"
+    t.integer  "full"
+    t.integer  "twin"
+    t.text     "notes"
+    t.string   "apartment"
+    t.integer  "dining"
+    t.integer  "kitchen"
+    t.integer  "living"
+    t.integer  "bathroom"
+    t.integer  "bedroom"
+    t.integer  "lounge"
+    t.integer  "sun"
+    t.integer  "porch"
+    t.integer  "pantry"
+    t.integer  "study"
+    t.integer  "laundry"
+    t.integer  "foyer"
+    t.integer  "storage"
+    t.integer  "screened_porch"
+    t.integer  "balcony"
+    t.integer  "parlor"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
 end
