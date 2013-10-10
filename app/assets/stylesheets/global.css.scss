@@ -20,3 +20,19 @@ body {
       text-align: center;
     }
 }
+
+.house-icon {
+  width: 100px;
+  height: 100px;
+  float: left;
+  display: block;
+  position: relative;
+  padding: 5px;
+}
+
+.panel-default {
+  overflow: auto;
+  .panel-body {
+    padding: 10px;
+  }
+}

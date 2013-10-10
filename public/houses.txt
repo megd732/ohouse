@@ -21,7 +21,7 @@ Notes:
 -------
 
 Street: North Cedar
-Number: 25
+Number: 35
 Residents: 4
 Downstairs: Bathroom, kitchen, living room, dining room
 Upstairs: Bedroom (4)

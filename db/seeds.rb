@@ -43,7 +43,7 @@ File.open("public/houses.txt").each do |line|
       :bedroom => rooms["bedroom"], :lounge => rooms["lounge"], :sun => rooms["sun room"],
       :porch => rooms["porch"], :pantry => rooms["pantry"], :study => rooms["study"], :laundry => rooms["laundry room"],
       :foyer => rooms["foyer"], :storage => rooms["storage"], :screened_porch => rooms["screened porch"],
-      :balcony => rooms["balcony"], :parlor => rooms["parlor"])
+      :balcony => rooms["balcony"], :parlor => rooms["parlor"], :picture => "houses/" + street.downcase + "/" + number.to_s + ".jpg")
     # clear fields
     street, number, residents, full, twin, notes, apartment = nil
     description = ""
