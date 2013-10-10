@@ -1,4 +1,6 @@
-<h1>Search for housing.</h1>
+<h1>Search village houses:</h1>
+
+
 <% @houses.each do |h|%>
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -7,7 +9,8 @@
       <div class="panel-body">
         <%= image_tag h.picture, :class => "house-icon" %>
         <b>Residents: </b> <%= h.residents %> <br/>
-        <b>Beds: </b> <%= h.full %> full, <%= h.twin %> twin
+        <b>Beds: </b> <%= h.full %> full, <%= h.twin %> twin <br/>
+        <%= link_to "Go to hub", houses_view_path(h.id)%>
       </div>
     </div>
 <% end %>

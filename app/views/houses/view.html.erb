@@ -1,3 +1,58 @@
-<h1><%= @house.street %></h1>
+<div class="house-hub">
 
-<%= image_tag @house.picture, :style => "width: 35%; height:35%;" %>
+  <span class="house-title"><%= @house.number %> <%= @house.street %> </span> <br/>
+  <i><%= @house.residents %> residents</i>
+
+  <div class="pictures">
+    <h2>Pictures</h2>
+    <div class="dummy-picture"></div>
+    <div class="dummy-picture"></div>
+    <div class="dummy-picture"></div>
+    <div class="dummy-picture"></div>
+    <div class="dummy-picture"></div>
+    <div class="dummy-picture"></div>
+
+    <div class="picture-buttons">
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-picture"></span> Upload a picture
+      </button>
+    </div>
+  </div>
+
+  <div class="room-stats">
+      <h2>Room Stats</h2>
+      <ul>
+       <li><% if @house.twin != 0 %><%= pluralize(@house.twin, 'twin bed') %><%end%> <% if @house.twin != 0 && @house.full != 0 %>,<%end%> <% if @house.full != 0 %><%= pluralize(@house.full, 'full bed') %><%end%></li>
+       <% if @house.laundry %><li>has laundry facilities</li><% end %>
+       <li><%= pluralize(@house.bedroom, 'bedroom') %></li>
+       <li><%= pluralize(@house.bathroom, 'bathroom') %></li>
+       <% if @house.dining %><li><%= pluralize(@house.dining, 'dining room') %></li><% end %>
+       <% if @house.living %><li><%= pluralize(@house.living, 'living room') %><% end %>
+       <% if @house.lounge %><li><%= pluralize(@house.lounge, 'lounge') %></li><% end %>
+       <% if @house.parlor %><li><%= pluralize(@house.parlor, 'parlor') %></li><% end %>
+       <% if @house.pantry %><li><%= pluralize(@house.pantry, 'pantry') %></li><% end %>
+       <% if @house.sun %><li><%= pluralize(@house.sun, 'sun room') %></li><% end %>
+       <% if @house.porch %><li><%= pluralize(@house.porch, 'porch') %></li><% end %>
+       <% if @house.study %><li><%= pluralize(@house.study, 'study') %></li><% end %>
+       <% if @house.foyer %><li><%= pluralize(@house.foyer, 'foyer') %></li><% end %>
+       <% if @house.storage %><li><%= pluralize(@house.storage, 'storage space') %></li><% end %>
+       <% if @house.screened_porch %><li><%= pluralize(@house.screened_porch, 'screened porch') %></li><% end %>
+       <% if @house.balcony %><li><%= pluralize(@house.balcony, 'balcony') %></li><% end %>
+      </ul>
+  </div>
+
+  <div class="reviews">
+    <h2>Reviews</h2>
+    This house has 0 reviews.
+    <div class="review-buttons">
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-chevron-right"></span> View all
+      </button>
+
+      <button type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-pencil"></span> Write a review
+      </button>
+    </div>
+  </div>
+
+</div>

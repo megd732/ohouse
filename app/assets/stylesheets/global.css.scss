@@ -1,5 +1,4 @@
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
 
 body {
   padding: 0;
@@ -10,6 +9,7 @@ body {
   margin-left: 15px;
 }
 
+/* homepage styling */
 .tagline {
   text-align: center;
   margin-top: 200px;
@@ -21,6 +21,7 @@ body {
     }
 }
 
+/* house picture styles */
 .house-icon {
   width: 100px;
   height: 100px;
@@ -30,9 +31,72 @@ body {
   padding: 5px;
 }
 
+/* displaying search results */
 .panel-default {
   overflow: auto;
   .panel-body {
     padding: 10px;
+  }
+}
+
+/* house hub styling */
+.house-hub {
+  .pictures {
+    display: block;
+    clear: both;
+    .dummy-picture {
+      width: 150px;
+      height: 150px;
+      background-color: #cbd4e1;
+      display: block;
+      margin: 10px;
+      float: left;
+      @media (max-width: 600px) {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .picture-buttons {
+      text-align: right;
+      padding: 30px;
+      clear: both;
+    }
+  }
+
+
+  .house-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.25em !important;
+    font-weight: bold;
+  }
+  .room-stats {
+    display: block;
+    clear: both;
+    ul {
+      width: 30em;
+      padding-bottom: 50px;
+      li {
+        float: left;
+        width: 10em;
+        margin-right: 20px;
+      }
+      br {
+        clear: left;
+      }
+    }
+  }
+    .house-full {
+      width: 35%;
+      height: 35%;
+      float: right;
+    }
+  .reviews {
+    .review-buttons {
+      padding: 30px;
+      text-align: right;
+    }
   }
 }
