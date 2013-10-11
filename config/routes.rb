@@ -1,5 +1,9 @@
 Ohouse::Application.routes.draw do
   root :to => 'static_pages#home'
+
+  resources :users
+  match '/signup', :to => 'users#new'
+
   match '/home', :to => 'static_pages#home', :via => 'get'
   match '/about', :to => 'static_pages#about', :via => 'get'
   match '/search', :to => 'static_pages#search', :via => 'get'
