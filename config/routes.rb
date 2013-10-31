@@ -3,6 +3,8 @@ Ohouse::Application.routes.draw do
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
+  match '/houses/:id', :to => 'houses#view', :as=> 'houses_view', :via => 'get'
+  resources :houses
 
   match '/signup', :to => 'users#new'
   match '/signin', :to => 'sessions#new'
@@ -11,7 +13,6 @@ Ohouse::Application.routes.draw do
   match '/home', :to => 'static_pages#home', :via => 'get'
   match '/about', :to => 'static_pages#about', :via => 'get'
   match '/search', :to => 'static_pages#search', :via => 'get'
-  match '/houses/:id', :to => 'houses#view', :as=> 'houses_view', :via => 'get'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

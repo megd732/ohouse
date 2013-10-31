@@ -6,4 +6,11 @@ class House < ActiveRecord::Base
   #  # this is not currently specific to our model but i took it from the internet
   #  find(:all, :conditions => ['title LIKE ? or description LIKE ?', search_condition, search condition])
   #end
+  def self.search(search)
+    if search
+      where('street LIKE ?', "%#{search}%")
+    else
+      scoped
+    end
+  end
 end

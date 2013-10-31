@@ -7,7 +7,6 @@ class StaticPagesController < ApplicationController
   end
 
   def search
-    # default search page
-    @houses = House.all
+    @houses = House.search(params[:search])
   end
 end

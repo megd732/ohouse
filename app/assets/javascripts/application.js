@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require_tree .
 //= require bootstrap
+
+$(function () {
+    $('#houses panel-heading').live('click', function() {
+        $.getScript(this.href);
+        return false;
+    })
+})

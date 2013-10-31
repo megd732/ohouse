@@ -1,16 +1,23 @@
 <h1>Search village houses:</h1>
-
-
-<% @houses.each do |h|%>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><%= h.number %> <%= h.street %> <% if h.apartment %>Apt. <%= h.apartment %><% end %> </h3>
-      </div>
-      <div class="panel-body">
-        <%= image_tag h.picture, :class => "house-icon" %>
-        <b>Residents: </b> <%= h.residents %> <br/>
-        <b>Beds: </b> <%= h.full %> full, <%= h.twin %> twin <br/>
-        <%= link_to "Go to hub", houses_view_path(h.id)%>
-      </div>
+<%= form_tag search_path, :method => 'get' do %>
+    <div class="form-group">
+      <%= text_field_tag :search, params[:search], :class => "form-control", :style => "width: 200px; float: left;"  %>
+      <%= submit_tag "Go!", :name => nil, :class => 'btn btn-primary btn-block', :style => "width: 50px; position: relative; margin-left: 210px;" %>
     </div>
 <% end %>
+
+<div id="houses">
+    <% @houses.each do |h|%>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><%= h.number %> <%= h.street %> <% if h.apartment %>Apt. <%= h.apartment %><% end %> </h3>
+          </div>
+          <div class="panel-body">
+            <%= image_tag h.picture, :class => "house-icon" %>
+            <b>Residents: </b> <%= h.residents %> <br/>
+            <b>Beds: </b> <%= h.full %> full, <%= h.twin %> twin <br/>
+            <%= link_to "Go to hub", houses_view_path(h.id)%>
+          </div>
+        </div>
+    <% end %>
+</div>
