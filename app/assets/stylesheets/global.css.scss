@@ -113,7 +113,7 @@ body {
   }
 }
 
-/* form styling */
+/* signup form styling */
 
 #signup-form {
   width: 50%;
@@ -141,6 +141,8 @@ body {
   }
 }
 
+/* errors styling */
+
 #error_explanation {
   color: #f00;
   ul {
@@ -152,4 +154,26 @@ body {
 .field_with_errors {
   @extend .form-group;
   @extend .error;
+}
+
+/* reviews */
+
+#review-form {
+  position: relative;
+  padding: 10px;
+  .title-wrap {
+    float: left;
+  }
+  .title {
+     width: 200px;
+  }
+  span.glyphicon-star-empty, span.glyphicon-star {
+    font-size: 2em;
+  }
+  .rev-stars {
+    margin-left: 300px;
+  }
+  .sub {
+    width: 200px;
+  }
 }

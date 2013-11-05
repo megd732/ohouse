@@ -43,14 +43,20 @@
 
   <div class="reviews">
     <h2>Reviews</h2>
-    This house has 0 reviews.
+    <% @house.reviews.each do |h| %>
+       <p>
+
+         <b>Title: </b><%= h.title %>
+
+       </p>
+    <% end %>
     <div class="review-buttons">
       <button type="button" class="btn btn-default">
         <span class="glyphicon glyphicon-chevron-right"></span> View all
       </button>
 
       <button type="button" class="btn btn-default">
-        <span class="glyphicon glyphicon-pencil"></span> Write a review
+        <span class="glyphicon glyphicon-pencil"></span> <%= link_to "Write a review", reviews_new_path %>
       </button>
     </div>
   </div>

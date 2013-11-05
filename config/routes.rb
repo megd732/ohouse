@@ -5,6 +5,8 @@ Ohouse::Application.routes.draw do
   resources :sessions, :only => [:new, :create, :destroy]
   match '/houses/:id', :to => 'houses#view', :as=> 'houses_view', :via => 'get'
   resources :houses
+  match '/houses/:id/reviews/new', :to => 'reviews#new', :as => 'reviews_new', :via => 'get'
+  resources :reviews
 
   match '/signup', :to => 'users#new'
   match '/signin', :to => 'sessions#new'

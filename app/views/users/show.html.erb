@@ -1,1 +1,3 @@
 <%= @user.name %>, <%= @user.email %>
+
+This user has <%= pluralize(@user.reviews.count, 'review') %>.
