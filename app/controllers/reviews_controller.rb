@@ -6,6 +6,7 @@ class ReviewsController < ApplicationController
   def create
     @review = Review.new(params[:review])
     @review.house_id = params[:house_id]
+    @review.stars = params[:stars]
     @review.user_id = current_user.id
     if @review.save
       redirect_to House.find(@review.house_id)
