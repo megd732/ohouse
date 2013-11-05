@@ -3,21 +3,30 @@ var stars = 0;
 $ (function() {
     // Toggle star view (if selected, fill in)
     $("#review-form span.glyphicon-star-empty").click(function() {
-        $(this).toggleClass("glyphicon-star-empty glyphicon-star");
         if($(this).hasClass("glyphicon-star")) {
+            // if we're already a star
+            for(var i=1; i<= 5; i++) {
+                var temp = "star" + i.toString();
+                if($(this).hasClass(temp)) {
+                  emptyAfter(i);
+                  stars = i;
+                  if(i < stars) { // only toggle if we're adding stars
+                      $(this).toggleClass("glyphicon-star-empty glyphicon-star");
+                  }
+                  document.getElementById("rate").innerHTML = i.toString() + " star(s)!";
+
+                }
+            }
+        }
+        else {
+            $(this).toggleClass("glyphicon-star-empty glyphicon-star");
             for(var i=1; i<=5; i++) {   // figure out which star we are
                 var temp = "star" + i.toString();
                 if($(this).hasClass(temp)) {
                     slideFill(i);
                     stars = i;
-                }
-            }
-        } else {
-            for(var i=1; i<=5; i++) {
-                var temp = "star" + i.toString();
-                if($(this).hasClass(temp))  {
-                   emptyAfter(i);
-                    stars = i;
+                    // also make extra span visible
+                    document.getElementById("rate").innerHTML = i.toString() + " star(s)!";
                 }
             }
         }

@@ -169,6 +169,10 @@ body {
   }
   span.glyphicon-star-empty, span.glyphicon-star {
     font-size: 2em;
+    span.rate {
+      font-size: 0.5em;
+      display: none;
+    }
   }
   .rev-stars {
     margin-left: 300px;
