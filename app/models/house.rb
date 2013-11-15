@@ -5,8 +5,10 @@ class House < ActiveRecord::Base
   def self.search(search)
     if search
       where('street LIKE ?', "%#{search}%")
+      # want to be able to search by options
     else
-      scoped
+     # scoped
+      Array.new
     end
   end
 end
