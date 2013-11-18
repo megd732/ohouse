@@ -214,5 +214,8 @@ body {
 
 .selected-params {
   // TODO: Use js to show the user their search params.
+  // Additionally, populating an array of params to pass to the search
+  // method will probably make this cleaner and be the best way to approach it.
+  // alternatively, making search a resource?
   display: none;
 }

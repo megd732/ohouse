@@ -7,8 +7,7 @@ class House < ActiveRecord::Base
       where('street LIKE ?', "%#{search}%")
       # want to be able to search by options
     else
-     # scoped
-      Array.new
+      Array.new   # don't display anything if we didn't search for anything.
     end
   end
 end
