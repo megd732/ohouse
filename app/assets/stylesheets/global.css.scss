@@ -188,6 +188,31 @@ body {
   font-size: 12pt;
 }
 
-.locations > .form-control {
-  width: 200px;
+.locations {
+  .form-control {
+    width: 200px;
+  }
+  label{
+    font-size: 12pt;
+    float: left;
+    padding-right: 45px;
+  }
+}
+.residents {
+  label{
+    display: inline-block;
+    font-size: 12pt;
+    padding-right: 20px;
+  }
+
+  .form-control {
+    display: inline-block;
+    width: 60px;
+    margin-right: 20px;
+  }
+}
+
+.selected-params {
+  // TODO: Use js to show the user their search params.
+  display: none;
 }

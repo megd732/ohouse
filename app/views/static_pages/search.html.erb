@@ -1,20 +1,31 @@
-<div class="jumbotron"">
+<div class="jumbotron">
     <h1>Search village houses.</h1>
     <!-- Other search options -->
 
     <!-- Search by street-->
     <%= form_tag search_path, :method => 'get' do %>
-        <div class="form-group amenities"> <!-- Amenities -->
-          <%= check_box_tag :laundry, "Laundry" %>
-          <%= label_tag :laundry, "Laundry" %>
-          <%= check_box_tag :porch, "Porch" %>
-          <%= label_tag :porch, "Porch" %>
-          <%= check_box_tag :sun, "Sun room" %>
-          <%= label_tag :sun, "Sun room" %>
+      <div class="form-group locations">  <!-- Location, add proximity -->
+        <%= label_tag :search, "Street:" %>
+        <%= select_tag :search, options_for_select(@streets), :class => "form-control", :prompt => "North Cedar, etc..." %>
+      </div>
+
+        <div class="form-group residents">    <!-- Also add bed counts -->
+          <%= label_tag :residents, "Residents:" %>
+          <%= number_field_tag :residents, "Residents", :class => "form-control", :id => 'res', :min => '1', :placeholder => 0 %>
+          <%= label_tag :full, "Full beds: " %>
+          <%= number_field_tag :full, "Full", :class => "form-control", :id => 'res', :min => '0', :placeholder => 0 %>
+          <%= label_tag :twin, "Twin beds: " %>
+          <%= number_field_tag :twin, "Twin", :class => "form-control", :id => 'res', :min => '0', :placeholder => 0 %>
         </div>
-        <div class="form-group locations">  <!-- Location -->
-          <%= select_tag :search, options_for_select(@streets), :class => "form-control" %>
-        </div>
+      <div class="form-group amenities"> <!-- Amenities -->
+        <h3>Amenities</h3>
+        <%= check_box_tag :laundry, "Laundry" %>
+        <%= label_tag :laundry, "Laundry" %>
+        <%= check_box_tag :porch, "Porch" %>
+        <%= label_tag :porch, "Porch" %>
+        <%= check_box_tag :sun, "Sun room" %>
+        <%= label_tag :sun, "Sun room" %>
+      </div>
 
         <div class="selected-params">
             Show selected params here.

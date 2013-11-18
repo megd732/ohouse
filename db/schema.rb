@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131011034344) do
+ActiveRecord::Schema.define(:version => 20131118183837) do
 
   create_table "houses", :force => true do |t|
     t.string   "street"
@@ -49,8 +49,11 @@ ActiveRecord::Schema.define(:version => 20131011034344) do
     t.text     "content"
     t.integer  "house_id"
     t.integer  "stars"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.boolean  "innapropriate_flag"
+    t.boolean  "funny_flag"
+    t.boolean  "useful_flag"
   end
 
   create_table "users", :force => true do |t|
