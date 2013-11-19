@@ -6,8 +6,8 @@
     <%= form_tag search_path, :method => 'get', :id => 'houses-search' do %>
       <div class="form-group locations">  <!-- Location, add proximity -->
         <h3>Location</h3>
-        <%= label_tag :search, "Street:" %>
-        <%= select_tag :search, options_for_select(@streets), :class => "form-control", :prompt => "North Cedar, etc..." %>
+        <%= label_tag :street, "Street:" %>
+        <%= select_tag :street, options_for_select(@streets), :class => "form-control", :prompt => "North Cedar, etc..." %>
       </div>
 
         <div class="form-group residents">    <!-- Also add bed counts -->
