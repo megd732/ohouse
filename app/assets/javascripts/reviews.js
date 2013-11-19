@@ -13,7 +13,7 @@ $ (function() {
                   if(i < stars) { // only toggle if we're adding stars
                       $(this).toggleClass("glyphicon-star-empty glyphicon-star");
                   }
-                  document.getElementById("rate").innerHTML = i.toString() + " star(s)!";
+                  document.getElementById("rate").innerHTML = i.toString() + " star";
 
                 }
             }

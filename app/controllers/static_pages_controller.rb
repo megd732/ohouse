@@ -11,5 +11,9 @@ class StaticPagesController < ApplicationController
     House.all.each do |h|
       @streets.add(h.street)
     end
+
+   # respond_to do |format|
+   #   format.js
+   # end
   end
 end

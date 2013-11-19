@@ -3,7 +3,7 @@
     <!-- Other search options -->
 
     <!-- Search by street-->
-    <%= form_tag search_path, :method => 'get' do %>
+    <%= form_tag search_path, :method => 'get', :id => 'houses-search' do %>
       <div class="form-group locations">  <!-- Location, add proximity -->
         <h3>Location</h3>
         <%= label_tag :search, "Street:" %>
@@ -37,17 +37,5 @@
 </div>
 
 <div id="houses">
-    <% @houses.each do |h|%>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title"><%= h.number %> <%= h.street %> <% if h.apartment %>Apt. <%= h.apartment %><% end %> </h3>
-          </div>
-          <div class="panel-body">
-            <%= image_tag h.picture, :class => "house-icon" %>
-            <b>Residents: </b> <%= h.residents %> <br/>
-            <b>Beds: </b> <%= h.full %> full, <%= h.twin %> twin <br/>
-            <%= link_to "Go to hub", houses_view_path(h.id)%>
-          </div>
-        </div>
-    <% end %>
+    <%= render 'houses' %>
 </div>
