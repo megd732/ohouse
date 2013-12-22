@@ -21,3 +21,6 @@ doc/
 *~.project
 .DS_Store
 .idea
+
+#ignore emacs files
+*~
