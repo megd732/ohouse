@@ -1,6 +1,10 @@
-
-
-<%= gravatar_for @user, :size => 150 %>
+<%= gravatar_for @user, :size => 150  %>
 <h1><%= @user.name %></h1>
+<p>
+  Message | Edit Profile | View Favorites
+</p>
 
-This user has <%= pluralize(@user.reviews.count, 'review') %>.
+<p>
+  Here are all of the user's reviews (view, delete, etc depending on permissions)
+</p>
+
