@@ -19,11 +19,22 @@ class House < ActiveRecord::Base
       if full == '' and twin == '' # neither specified
         a = where('street = ?', street)
       elsif full == '' and twin != ''   # twin specified but full not
-        a = where('street = ? AND twin = ?', street, residents, twin)
+        a = where('street = ? AND twin = ?', street, twin)
       elsif full != '' and twin == ''   # full specified but twin not
-        a = where('street = ? AND full = ?', street, residents, full)
+        a = where('street = ? AND full = ?', street, full)
       else
-        a = where('street = ? AND residents = ? AND full = ? AND twin = ?', street, residents, full, twin)
+        a = where('street = ? AND full = ? AND twin = ?', street, full, twin)
+      end
+    elsif street == '' and residents != ''
+      # same queries, no street array
+      if full ='' and twin == '' # neither specified
+        a = where('residents =?', residents)
+      elsif full == '' and twin != ''
+        a = where('residents = ? AND twin = ?', residents, twin)
+      elsif full != '' and twin == ''
+        a = where('residents = ? AND full = ?', residents, full)
+      else 
+        a = where('residents = ? AND full = ? AND twin = ?', residents, full, twin)
       end
     end
 
