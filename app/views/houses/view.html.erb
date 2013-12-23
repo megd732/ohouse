@@ -5,7 +5,9 @@
 
   <div class="pictures">
     <h2>Pictures</h2>
-    <div class="dummy-picture"></div>
+    <div class="dummy-picture" style="background-color: none;">
+      <%= image_tag @house.picture, :style => "width: 150px; height: 150px;" %>
+    </div>
     <div class="dummy-picture"></div>
     <div class="dummy-picture"></div>
     <div class="dummy-picture"></div>
@@ -43,6 +45,9 @@
 
   <div class="reviews">
     <h2>Reviews</h2>
+    <% if @house.reviews == [] %>
+      This house has no reviews.
+    <% end %>
     <!-- Review styling -->
     <% @house.reviews.each do |h| %>
       <div class="panel panel-default">

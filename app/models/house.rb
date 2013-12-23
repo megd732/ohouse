@@ -1,6 +1,7 @@
 class House < ActiveRecord::Base
   attr_accessible :picture, :apartment, :balcony, :bathroom, :bedroom, :description, :dining, :foyer, :full, :kitchen, :laundry, :living, :lounge, :notes, :number, :pantry, :parlor, :porch, :residents, :screened_porch, :storage, :street, :study, :sun, :twin
   has_many :reviews
+  has_many :favorites
 
   def self.search(street, residents, full, twin, laundry, porch, sun)
     a = Array.new
