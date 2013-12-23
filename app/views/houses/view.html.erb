@@ -45,11 +45,13 @@
     <h2>Reviews</h2>
     <!-- Review styling -->
     <% @house.reviews.each do |h| %>
-       <p>
-
-         <b>Title: </b><%= h.title %>
-
-       </p>
+      <div class="panel panel-default">
+	<div class="panel-heading"><b><%= h.title %></b> by <%= h.user.name %> on <%= h.created_at.strftime("%B %d, %Y") %></div>
+	<div class="panel-body">
+	  <%= h.stars %> stars <br/>
+          <%= h.content %>
+	</div>
+      </div>
     <% end %>
     <div class="review-buttons">
       <button type="button" class="btn btn-default">
