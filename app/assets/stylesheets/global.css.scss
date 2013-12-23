@@ -29,7 +29,6 @@ body {
 
 .navbar-brand {
   margin-left: 15px;
-  font-weight: bold;
   font-family: 'Pacifico';
   font-size: 30px !important;
   color: $logo !important;
@@ -244,7 +243,14 @@ body {
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 30px;
-
+  padding: 20px;
+  width: 50%;
+  .form-control {
+    margin-top: 10px;
+  }
+  @media (max-width: 600px) {
+    width: 95%;
+  }
   h1 {
     font-size: 2em;
   }
@@ -256,6 +262,10 @@ body {
   #go {
     margin: 0 auto;
     width: 100px !important;
+  }
+  #street-search {
+    clear: both;
+    background-color: #fff;
   }
 }
 

@@ -6,16 +6,14 @@
     <%= form_tag search_path, :method => 'get', :id => 'houses-search' do %>
       <div class="form-group locations">  <!-- Location, add proximity -->
 
-        <%= select_tag :street, options_for_select(@streets), :class => "form-control", :id => "street-search",  :prompt => "Pick a street!" %>
+        <%= select_tag :street, options_for_select(@streets), :class => "form-control", :prompt => "Pick a street!" %>
       </div>
 
         <div class="form-group residents">    <!-- Also add bed counts -->
           <%= label_tag :residents, "Residents:" %>
-          <%= number_field_tag :residents, "Residents", :class => "form-control", :id => 'res', :min => '1', :placeholder => 0 %>
+	  <
 	  <br/>
-          <%= label_tag :full, "Full beds: " %>
           <%= number_field_tag :full, "Full", :class => "form-control", :id => 'res', :min => '0', :placeholder => 0 %>
-          <%= label_tag :twin, "Twin beds: " %>
           <%= number_field_tag :twin, "Twin", :class => "form-control", :id => 'res', :min => '0', :placeholder => 0 %>
         </div>
       <div class="form-group amenities"> <!-- Amenities -->
